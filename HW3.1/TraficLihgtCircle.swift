@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct TraficLihgtCircle: View {
-    let color: UIColor
+    var color: Color
     
     var body: some View {
-        Color(color)
+        Circle()
+            .fill(color)
             .frame(width: 100, height: 100)
-            .clipShape(Circle())
             .overlay(Circle().stroke(Color.white, lineWidth: 2))
-            .shadow(radius: 10)
     }
 }
 
