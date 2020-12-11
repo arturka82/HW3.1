@@ -13,6 +13,7 @@
 		912A74E225820E3100CD3F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912A74E125820E3100CD3F98 /* Assets.xcassets */; };
 		912A74E525820E3100CD3F98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912A74E425820E3100CD3F98 /* Preview Assets.xcassets */; };
 		912A74E825820E3100CD3F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912A74E625820E3100CD3F98 /* LaunchScreen.storyboard */; };
+		912A74F125820E7800CD3F98 /* TraficLihgtCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912A74F025820E7800CD3F98 /* TraficLihgtCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		912A74E425820E3100CD3F98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		912A74E725820E3100CD3F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912A74E925820E3200CD3F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912A74F025820E7800CD3F98 /* TraficLihgtCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficLihgtCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				912A74DB25820E3100CD3F98 /* AppDelegate.swift */,
 				912A74DD25820E3100CD3F98 /* SceneDelegate.swift */,
 				912A74DF25820E3100CD3F98 /* ContentView.swift */,
+				912A74F025820E7800CD3F98 /* TraficLihgtCircle.swift */,
 				912A74E125820E3100CD3F98 /* Assets.xcassets */,
 				912A74E625820E3100CD3F98 /* LaunchScreen.storyboard */,
 				912A74E925820E3200CD3F98 /* Info.plist */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				912A74DC25820E3100CD3F98 /* AppDelegate.swift in Sources */,
+				912A74F125820E7800CD3F98 /* TraficLihgtCircle.swift in Sources */,
 				912A74DE25820E3100CD3F98 /* SceneDelegate.swift in Sources */,
 				912A74E025820E3100CD3F98 /* ContentView.swift in Sources */,
 			);
